@@ -1,0 +1,49 @@
+body {
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #560c81;
+}
+.header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(131, 131, 184);
+    box-shadow: 0 2px 5px;
+
+}
+.heading{
+    color: #810c0c;
+    text-transform: uppercase;
+    justify-content: right;
+    letter-spacing: 3px;
+    font-size: 30px;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    
+}
+.navbar li{
+margin: 0 1rem;
+}
+.section{
+    padding: 100px;
+    text-align: center;
+}
+#home{
+    background-color: darkblue;
+}
+#about{
+    background-color: rgb(7, 0, 0);
+    color: rgb(255, 0, 0);
+}
+#service{
+    background-color: rgb(33, 8, 54);
+    
+    color: blue;
+    text-align: center;
+}
+#conatct{
+    background-color: rgb(101, 105, 16);
+   color: black;
+}
